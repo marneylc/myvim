@@ -6,4 +6,4 @@ git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 
 # move vimrc to home directory
-cp ./.vimrc ~/.vimrc
+cp .vimrc ~/.vimrc

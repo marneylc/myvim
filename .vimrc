@@ -7,13 +7,13 @@ call vundle#begin()
 
 " Plugins 
 Plugin 'VundleVim/Vundle.vim'
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-map <C-n> :NERDTreeToggle<CR>
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'scrooloose/nerdtree'
 
 " behavior
+let g:ctrlp_map = '<c-p>'
 set backspace=indent,eol,start
 syntax on
 filetype plugin indent on
 set number
 set hidden
-
