@@ -25,6 +25,7 @@ set hidden
 syntax enable
 set background=dark
 colorscheme solarized
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab " fixing yaml indentation errors
 
 " key mappings
 map <tab> :NERDTreeToggle<CR>
