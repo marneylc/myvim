@@ -12,6 +12,8 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'docker/docker'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'JuliaEditorSupport/julia-vim'
+Plugin 'fatih/vim-go'
 call vundle#end()
 
 " behavior and appearance
