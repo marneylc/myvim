@@ -1,9 +1,17 @@
 set nocompatible
 filetype off " required
 set encoding=utf-8
-
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
+
+" set indenting
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
 
 " Plugins 
 call vundle#begin()
@@ -27,6 +35,7 @@ set hidden
 syntax enable
 colorscheme elflord
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab " fixing yaml indentation errors
+set clipboard=unnamedplus
 
 " key mappings
 map <tab> :NERDTreeToggle<CR>
