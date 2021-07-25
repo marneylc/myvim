@@ -48,3 +48,6 @@ map <tab> :NERDTreeToggle<CR>
 " open filename in the new viewport.
 " Ctrl-w r moves viewports clockwise.
 " Ctrl-w R moves viewports counter-clockwise.
+
+" show hidden files with NERDTree
+let NERDTreeShowHidden=1
